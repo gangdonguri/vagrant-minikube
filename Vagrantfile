@@ -4,7 +4,7 @@
 VAGRANTFILE_API_VERSION = "2"
 Vagrant.require_version ">= 2.0.0"
 
-require './vagrant-provision-reboot/vagrant-provision-reboot-plugin'
+require './vagrant-provision-reboot-plugin'
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vbguest.auto_update = false
